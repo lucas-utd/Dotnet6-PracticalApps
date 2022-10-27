@@ -31,7 +31,7 @@ namespace Northwind.Web
                     WriteLine($"Endpoint route pattern: {rep.RoutePattern.RawText}");
                 }
 
-                if (context.Request.Path == "/bonjjour")
+                if (context.Request.Path == "/bonjour")
                 {
                     // in the case of a match on URL path, this becomes a terminating
                     // delegate that returns so does not call the next delegate
